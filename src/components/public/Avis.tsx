@@ -9,8 +9,10 @@ const Avis: React.FC = () => {
 
   useEffect(() => {
     const avis = contenairAvisRef.current?.querySelectorAll('.avis_grid');
-    const widthAvis = avis?.[0]?.offsetWidth || 0;
+    //const widthAvis = avis?.[0]?.offsetWidth || 0;
     //const longueurAvis = avis?.length || 0;
+    const avisElement = avis?.[0] as HTMLElement; // Conversion de type en HTMLElement
+    const widthAvis = avisElement?.offsetWidth || 0;
 
     const updateSlid = (transformX: number) => {
       const contenairAvis = contenairAvisRef.current;

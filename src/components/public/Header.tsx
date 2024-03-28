@@ -7,7 +7,7 @@ import { FaShoppingBasket } from 'react-icons/fa';
 
 interface HeaderProps {
     size: number;
-}  
+} 
 
 const Header = ({size}: HeaderProps) => {
     return (

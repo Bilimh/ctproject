@@ -1,9 +1,9 @@
 import './accueil.css'
 import ImageSlide from "../components/public/ImageSlide"
-import { Image } from "../components/public/ImageSlide"
+import {produitType} from "../components/public/ImageSlide"
 
 const Accueil = () => {
-    const imageToSlige: Image[] = [
+    const imageToSlige: produitType[] = [
         {
             id: 1, src: '/salon1.jpg', alt: "salon1",
             descriptionHeader: 'Bienvenue chez Salon de Coiffure Chic & Élégant.',
