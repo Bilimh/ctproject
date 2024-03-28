@@ -1,0 +1,15 @@
+.avis_grid{
+    flex: 25% 0 0;
+    margin: 0 5px;
+    background-color: white;
+    padding: 0 13px;
+}
+.avis{
+    border-radius: 8px;
+}
+
+.button{
+    outline: none;
+    border: 1px solid transparent;
+    width: 50px;
+}

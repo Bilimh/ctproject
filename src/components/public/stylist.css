@@ -1,0 +1,71 @@
+.titre_coiffeur{
+    font-family: 'MAK';
+    font-size: 2.5rem;
+    color: #582D1D;
+}
+.styleItem{
+    font-family: 'LTSoul';
+    font-size: 1.35rem;
+    line-height: 1.75rem;
+    color:#582D1D;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.card{
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+    height: 300px;
+    display: grid;
+    /*grid-template-columns: repeat(2, 1fr);*/
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.card-img{
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+}
+.card-box{
+    z-index: 2;
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(3px);
+    transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+    display: flex;
+    flex-direction: column;
+     padding: 0.8rem;
+}
+.card:hover .card-img{
+    scale: 0.85;
+    filter: brightness(0.8);
+}
+
+.card:hover .card-box{
+    opacity: 1;
+    transform: translate(0,0);
+}
+.box-1{
+    /*grid-column: 1 / 2;
+    grid-row: 1 / 2;*/
+    justify-content: flex-end;
+    text-align: center;
+   
+    
+}
+.box-4 {
+    /*grid-column: 2 / 2;  Définit que l'élément occupe la deuxième colonne de la grille (indexée à partir de 1), mais ne s'étend pas sur la troisième colonne. */
+    /*grid-row: 2 / 2; /* Définit que l'élément occupe la deuxième ligne de la grille (indexée à partir de 1), mais ne s'étend pas sur la troisième ligne. */
+    justify-content: flex-end;
+    align-items: flex-end; 
+}
+
+.top-left{
+    transform: translate(105%, -105%);
+}
+.bottom-right{
+    transform: translate(105%, 105%);
+}

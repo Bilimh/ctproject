@@ -1,0 +1,27 @@
+.image-slider-container {
+    display: flex;
+    overflow: hidden;
+  }
+
+#imageHide{
+  opacity: 0;
+  /*transform: translateX(100%);*/
+   width: 100%;
+   transition: opacity 1s ;
+   position: absolute;
+}
+
+#imageHide.active{
+    /*transform: translateX(0);*/
+    opacity: 1;
+}
+
+/*.heroImage {
+    background-image: url('../public/salon1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    padding: 110px 0 ;
+}*/

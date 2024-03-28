@@ -1,0 +1,23 @@
+.produitItem{
+    
+    height: 250px;
+    margin: 0 10px;
+    border: 1px solid #f1f1f1;
+}
+
+.produitItemImage{
+    width: 100%;
+    height: 100%;
+}
+.titre_produit{
+    font-family: 'LTSoul';
+    font-size: 1.8rem;
+    line-height: 1.75rem;
+    color:#582D1D;
+}
+.showProduit{
+    flex: 20% 0 0;
+}
+.ajouterPanier button {
+    outline: none;
+}

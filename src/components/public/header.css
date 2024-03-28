@@ -1,0 +1,39 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    font-size: 1.2rem;
+}
+a{  
+    color: #fff;
+    text-decoration: none;
+}
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 5;
+}
+
+.panier{
+    position: relative;
+}
+.panier_count{
+    display: inline-block;
+    position: absolute;
+    background-color: #F5AE73;
+    color: #000;
+    top: -8px;
+    right: -6px;
+    width: 18px;
+    height: 18px;
+    font-size: 0.8rem;
+    border-radius: 50%;
+    text-align: center;
+}
