@@ -6,7 +6,7 @@ const Accueil = () => {
     const imageToSlige: produitType[] = [
         {
             id: 1, src: '/salon1.jpg', alt: "salon1",
-            descriptionHeader: 'Bienvenue chez Salon de Coiffure Chic & Élégant.',
+            descriptionHeader: 'Bienvenue chez Aluna Beauty Salon.',
             descriptionText: 'Nous sommes fiers de vous offrir une expérience de coiffure exceptionnelle dans un cadre relaxant et sophistiqué. Notre équipe de coiffeurs talentueux est là pour vous offrir des services personnalisés et des conseils de style.'
         },
         {
