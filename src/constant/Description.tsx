@@ -7,7 +7,7 @@ interface Description {
 export const descriptionSalon: Description[] = [
     {
         id: 1,
-        description: "Plongez dans l'élégance et le raffinement au cœur du 14e arrondissement avec notre salon de coiffure exclusif. Niché dans un cadre chaleureux et cosy, notre établissement vous offre une expérience unique où le style et le bien-être se rencontrent. Laissez-vous choyer par notre équipe de coiffeurs talentueux, experts dans les dernières tendances et techniques de coiffure. Que vous recherchiez une coupe moderne, une coloration audacieuse ou un simple rafraîchissement, notre salon est l'endroit idéal pour sublimer votre look. Nous mettons un point d'honneur à créer une atmosphère conviviale où chaque client se sent comme chez lui."
+        description: "Plongez dans l'élégance et le raffinement au cœur du quartier Liberté avec notre salon de coiffure exclusif. Niché dans un cadre chaleureux et cosy, notre établissement vous offre une expérience unique où le style et le bien-être se rencontrent. Laissez-vous choyer par notre équipe de coiffeurs talentueux, experts dans les dernières tendances et techniques de coiffure. Que vous recherchiez une coupe moderne, une coloration audacieuse ou un simple rafraîchissement, notre salon est l'endroit idéal pour sublimer votre look. Nous mettons un point d'honneur à créer une atmosphère conviviale où chaque client se sent comme chez lui."
     }
 ]
 
@@ -26,11 +26,6 @@ interface Coiffeur {
   
 export   const listeCoiffeurs: Coiffeur[] = [
     {
-      nom: "Armand",
-      description: "Avec une créativité sans limites et une passion pour la coiffure, Armand transforme chaque séance en une expérience artistique. Ses compétences techniques et son attention aux détails garantissent des résultats exceptionnels.",
-      img: 'IMG_9665.PNG'
-    },
-    {
       nom: "Gael",
       description: "Gael, le maître des tendances capillaires, apporte une touche moderne à chaque coupe. Sa vision audacieuse et son expertise en matière de style font de chaque rendez-vous un voyage unique dans le monde de la coiffure.",
       img: 'IMG_9666.PNG'
@@ -44,11 +39,6 @@ export   const listeCoiffeurs: Coiffeur[] = [
       nom: "Tripescia",
       description: "Tripescia, experte en transformations capillaires, excelle dans la création de styles audacieux et expressifs. Sa polyvalence et sa compréhension approfondie des tendances en font une coiffeuse recherchée.",
       img: 'IMG_9669.PNG'
-    },
-    {
-      nom: "Aisha",
-      description: "Alexia, une professionnelle de la coiffure passionnée, allie compétence technique et sensibilité artistique. Elle se consacre à comprendre les besoins de chaque client pour créer des looks qui inspirent confiance et élégance.",
-      img: 'IMG_9683.jpg'
     },
 ];
   

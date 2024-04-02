@@ -4,6 +4,7 @@ import { Box, Button, Flex, Grid, Heading, Text } from "@chakra-ui/react"
 import { TimeIcon, InfoOutlineIcon } from "@chakra-ui/icons"
 import { FaMapMarker } from 'react-icons/fa';
 import './infoPratique.css'
+import { Link } from "react-router-dom";
 const InfoPratique = () => {
     return (
         <Flex direction={'column'} 
@@ -20,13 +21,13 @@ const InfoPratique = () => {
                     <Text >
                         <div className="titre_coiffure textTransform">Horaires</div>
                         <Text m={'0'} display={'flex'} justifyContent={'space-around'}>
-                            <Text> Du <strong>Lundi</strong> au <strong>Samedi</strong></Text>
-                            <Text>10h-21h30</Text>
+                            <Text> Du <strong>Lundi</strong> au <strong>Vendredi</strong></Text>
+                            <Text>9h - 12h</Text>
                         </Text>
                         <span className="hr"></span>
                         <Text m={'0'} display={'flex'} justifyContent={'space-around'}>
-                            <Text> Le <strong>Dimanche</strong></Text>
-                            <Text>11h-20h30</Text>
+                            <Text> <strong>Après Midi</strong></Text>
+                            <Text>13h30 - 17h</Text>
                         </Text>
                     </Text>
                 </Flex>
@@ -37,10 +38,10 @@ const InfoPratique = () => {
                     <Text>
                         <div className="titre_coiffure textTransform">Adresse</div>
                         <Text mt={'10'}>
-                            <p>Élégance Capillaire</p>
+                            <p>Aluna Beauty Salon</p>
                             <Text>
-                                <Text>31 Rue John Doe</Text>
-                                <Text mt={'-20'}>94200, Ivry-Sur-Seine</Text>
+                                <Text>Brest Place de Siam</Text>
+                                <Text mt={'-20'}> 29200, Brest</Text>
                             </Text>
                         </Text>
                     </Text>
@@ -56,7 +57,7 @@ const InfoPratique = () => {
                             fontSize={'1.2rem'}
                             border={'2px solid #582D1D'}
                             >
-                            Contact
+                            <Link className='link_contact' to='/contact'> Contact</Link>
                         </Button>
                         </Box>
                 </Flex>
@@ -67,15 +68,15 @@ const InfoPratique = () => {
                     <Text>
                         <div className="titre_coiffure textTransform">à savoir</div>
                         <Text mt={'10'}>
-                            Notre salon est idéalement situé au cœur du quartier Petit Ivry.
+                            Notre salon est idéalement situé dans le quartier Liberté .
                         </Text>
                         <Text m={'-20'} display={'flex'} justifyContent={'space-around'}>
-                            <Text>Métro 7: </Text>
-                            <Text>Pierre et Marie Curie</Text>
+                            <Text>Bus 1: </Text>
+                            <Text>Liberté Morvan</Text>
                         </Text>
                         <Text m={'-20'} display={'flex'} justifyContent={'space-around'}>
-                            <Text>Tram T9: </Text>
-                            <Text>Cimitière Parisien</Text>
+                            <Text>Tramway: </Text>
+                            <Text>Siam</Text>
                         </Text>
                     </Text>
                 </Flex>

@@ -25,7 +25,7 @@ const Salon = () => {
                 </Flex>
                 <Flex direction={'column'} justifyContent={'center'} className="description">
                  
-                    <Text>
+                    <Text className="desciption_salon">
                         {descriptionSalon[0].description}
                     </Text>
                 </Flex>

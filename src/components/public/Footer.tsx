@@ -10,16 +10,16 @@ const Footer = () => {
             <div className="container">
                 <div className="footer-columns">
                     <div className="footer-column">
-                        <div className="footer-title">Élégance Capillaire</div>
+                        <div className="footer-title">Aluna Beauty Salon</div>
                         <p>
-                        Venez vivre une expérience capillaire exceptionnelle chez Elegance Capillaire, là où la perfection rencontre l'élégance.                        </p>
+                        Venez vivre une expérience capillaire exceptionnelle chez Aluna Beauty Salon, là où la perfection rencontre l'élégance.                        </p>
                     </div>
                     <div className="footer-column">
                         <div className="footer-title">Contact info</div>
                         <p>
-                        31 Rue Jonh Doe 94200, Ivry-Sur-Seine <br />
+                        Brest Place de Siam <br />
                         01.68.32.58.16<br />
-                            <a href="mailto:contact@elegancecapillaire.com">contact@elegancecapillaire.com</a>
+                            <a href="mailto:contact@elegancecapillaire.com">alunabeautysalon@gmail.com</a>
                             <p className='footer_network'> <a><FaInstagram size={25} /> </a>
                                 <a><FaTwitter size={25} /></a>
                                 <a><FaFacebook size={25} /></a>
@@ -29,14 +29,14 @@ const Footer = () => {
                     <div className="footer-column">
                         <div className="footer-title">Horaires</div>
                         <ul>
-                            <li>Du Lundi au Samedi | 10h - 21h30</li>
-                            <li> Le Dimanche | 11h - 20h30 </li>
-                            <li>Jour Férier | 11h - 19h</li>
+                            <li>Du Lundi au Vendredi | 9h - 12h </li>
+                            
+                            <li>Après midi | 13h30 - 17h </li>
                         </ul>
                     </div>
                 </div>
                 <div className="footer-credits">
-                    <span>2024 Élégance Capillaire</span>. Tous droits réservés.
+                    <span>2024 Aluna Beauty Salon</span>. Tous droits réservés.
                 </div>
             </div>
         </footer>
